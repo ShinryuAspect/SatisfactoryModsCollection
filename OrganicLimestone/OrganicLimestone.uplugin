@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.1.0",
 	"FriendlyName": "Organic Limestone",
-	"Description": "A simple mod which allows the processing of Limestone into Biomass as, in the real world, Limestone may be a mixture of both organic and inorganic materials. Better make use of the \"organic\" part too.",
+	"Description": "A simple mod which allows the processing of Limestone into Biomass as, in the real world, Limestone may be a mixture of both organic and inorganic materials. Better make use of the \\\"organic\\\" part too.",
 	"Category": "Modding",
 	"CreatedBy": "ShinryuAspect",
 	"CreatedByURL": "https://ficsit.app/user/7C5o5Xx4A6KXHF",
@@ -14,6 +14,7 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
+	"BuiltInInitialFeatureState": "Active",
 	"Plugins": [
 		{
 			"Name": "SML",
@@ -21,12 +22,13 @@
 			"SemVersion": "^3.11.3"
 		}
 	],
-	"SemVersion": "1.0.0",
-	"GameVersion": ">=416835",
+	"SemVersion": "1.1.0",
+	"GameVersion": ">=491125",
 	"LocalizationTargets": [
 		{
 			"Name": "OrganicLimestone",
-			"LoadingPolicy": "Always"
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
 		}
 	]
 }
