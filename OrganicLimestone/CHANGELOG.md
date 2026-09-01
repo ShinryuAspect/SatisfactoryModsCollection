@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-06-10
+
+This is just a minor updated that "made" me update the mod itself to latest SML version. The mod worked prior to this, but I just decided to do it and killed two birds with one stone.
+I just found (after a hiatus without playing Satisfactory) that the outputs of both the Wood and Leaves were a bit overtuned (specially the Wood one) so I just "downgraded" them just to make sure both respect the intended progression.
+
+### Changed
+
+- [Tweaked] Recipe to produce Leaves from Limestone in the Constructor (Unlocked at Tier 0 - HUB Upgrade 3)
+
+```cpp
+4 Limestone (60 per min) => 1 Leaves (15 per min)
+Produced in: Constructor, Crafting Bench
+Production Rate: 15 per min
+Cycle Time: 4 sec
+```
+
+- [Tweaked] Recipe to produce Wood from Limestone in the Constructor (Unlocked at Tier 0 - HUB Upgrade 3)
+
+```cpp
+12 Limestone (72 per min) => 1 Wood (6 per min)
+Produced in: Constructor, Crafting Bench
+Production Rate: 6 per min
+Cycle Time: 10 sec
+```
+
 ## [1.2.0] - 2026-06-10
 
 This update was brought to you courtesy of an issue someone posted over on the Github page [Suggestion: Alt recipe for refinery/blender](https://github.com/ShinryuAspect/SatisfactoryModsCollection/issues/1).

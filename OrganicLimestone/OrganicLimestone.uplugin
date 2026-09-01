@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.2.0",
+	"VersionName": "1.3.0",
 	"FriendlyName": "Organic Limestone",
 	"Description": "A simple mod which allows the processing of Limestone into organic materials, (e.g. Biomas, Wood, Leaves...) as, in the real world, Limestone may be a mixture of both organic and inorganic materials. Better make use of the \"organic\" part too.",
 	"Category": "Modding",
@@ -22,8 +22,8 @@
 			"SemVersion": "^3.12.0"
 		}
 	],
-	"SemVersion": "1.2.0",
-	"GameVersion": ">=491125",
+	"SemVersion": "1.3.0",
+	"GameVersion": ">=502094",
 	"LocalizationTargets": [
 		{
 			"Name": "OrganicLimestone",
